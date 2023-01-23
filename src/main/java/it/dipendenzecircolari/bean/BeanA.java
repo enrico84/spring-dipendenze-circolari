@@ -10,11 +10,11 @@ import javax.annotation.PostConstruct;
 public class BeanA {
 
     /**
-     * 1° SOLUZIONE CON INIZIALIZZAZIONE LAZY
+     * 1° SOLUZIONE CON INIZIALIZZAZIONE @LAZY
      * QUANDO IL BEAN VIENE REFERENZIATO, SI INIETTA UN PROXY NEL BeanA
      */
 //    private BeanB beanB;
-//    public BeanA(@Lazy  BeanB beanB) {
+//    public BeanA(@Lazy BeanB beanB) {
 //        super();
 //        this.beanB = beanB;
 //    }
